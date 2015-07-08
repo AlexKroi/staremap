@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StareIllmitz", "StareIllmitz\StareIllmitz.csproj", "{AFE7E535-D0DA-4BA0-9F6D-0379E1C942E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{00B04EE4-4857-4BBF-8791-5E4222B1C680}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5E4D8BA1-FC28-49A7-B4AC-FAF4FC8C1C04}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\StareIllmitz-WAWS-dev.json = PublishScripts\Configurations\StareIllmitz-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE7E535-D0DA-4BA0-9F6D-0379E1C942E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE7E535-D0DA-4BA0-9F6D-0379E1C942E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE7E535-D0DA-4BA0-9F6D-0379E1C942E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE7E535-D0DA-4BA0-9F6D-0379E1C942E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E4D8BA1-FC28-49A7-B4AC-FAF4FC8C1C04} = {00B04EE4-4857-4BBF-8791-5E4222B1C680}
+	EndGlobalSection
+EndGlobal
