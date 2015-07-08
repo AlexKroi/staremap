@@ -26,5 +26,11 @@ namespace StareIllmitz.Controllers
 
             return View();
         }
+
+        //[HttpPost]
+        //public ActionResult _StoreLocations()
+        //{
+        //    //return Json();
+        //}
     }
 }

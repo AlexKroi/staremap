@@ -490,6 +490,14 @@
     <Content Include="Content\kendo\2015.2.624\fonts\DejaVu\DejaVuSerif.ttf" />
     <Content Include="Content\kendo\2015.2.624\images\kendoui.ttf" />
     <Content Include="Content\kendo\2015.2.624\images\kendoui.woff" />
+    <Content Include="Content\POLYGON.shp" />
+    <Content Include="Content\countries-users.geo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\map.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Content\store-locations.json" />
     <None Include="Properties\PublishProfiles\StareIllmitz.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
