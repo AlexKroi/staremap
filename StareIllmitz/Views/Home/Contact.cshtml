@@ -1,17 +1,43 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Einteilung";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<body>
+    <style type="text/css">
+        table.tableizer-table {
+            border: 1px solid #CCC;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        .tableizer-table td {
+            padding: 4px;
+            margin: 3px;
+            border: 1px solid #ccc;
+        }
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        .tableizer-table th {
+            background-color: #104E8B;
+            color: #FFF;
+            font-weight: bold;
+        }
+    </style>
+    <table class="tableizer-table">
+        <tr><td>1</td><td>Jäger 2</td></tr>
+        <tr><td>2</td><td>Steirer</td></tr>
+        <tr><td>3</td><td>Jäger 2</td></tr>
+        <tr><td>4</td><td>Steirer</td></tr>
+        <tr><td>5</td><td>Steirer</td></tr>
+        <tr><td>6</td><td>Steirer</td></tr>
+        <tr><td>7</td><td>Steirer</td></tr>
+        <tr><td>8</td><td>Feldhüter</td></tr>
+        <tr><td>9</td><td>Feldhüter</td></tr>
+        <tr><td>10</td><td>Jäger 2</td></tr>
+        <tr><td>11</td><td>Feldhüter</td></tr>
+        <tr><td>12</td><td>Jäger 1</td></tr>
+        <tr><td>13</td><td>Jäger 1</td></tr>
+        <tr><td>14</td><td>Feldhüter</td></tr>
+        <tr><td>15</td><td>Jäger 1</td></tr>
+        <tr><td>16</td><td>Feldhüter</td></tr>
+    </table>
+</body>
