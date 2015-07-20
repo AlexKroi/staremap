@@ -504,6 +504,12 @@
     <Content Include="Content\rieden.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\einteilung11.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\einteilung16.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\StareIllmitz - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz.pubxml" />
