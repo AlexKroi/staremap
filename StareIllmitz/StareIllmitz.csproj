@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>ae550e1c</NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/098a4a8c-8fa1-4724-8475-3797aca69d30/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/StareIllmitz</ApplicationInsightsResourceId>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -150,6 +151,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\IllmitzWeinbauflurenA1.jpeg" />
     <Content Include="Content\kendo\2015.2.624\Black\editor.png" />
     <Content Include="Content\kendo\2015.2.624\Black\imagebrowser.png" />
     <Content Include="Content\kendo\2015.2.624\Black\indeterminate.gif" />
@@ -510,9 +512,11 @@
     <Content Include="Content\einteilung16.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\einteilung14.pdf" />
     <None Include="Properties\PublishProfiles\StareIllmitz - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz.pubxml" />
+    <None Include="Properties\PublishProfiles\stareillmitz1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
