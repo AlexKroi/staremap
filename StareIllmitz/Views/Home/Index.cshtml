@@ -3,7 +3,7 @@
 }
 <body>
     <div>
-        <a href="~/Content/einteilung14.pdf">Druckansicht</a>
+        <a href="~/Content/einteilung16.pdf">Druckansicht</a>
         @(Html.Kendo().Map()
       .Name("map")
               .Center(47.76, 16.8)
@@ -17,7 +17,7 @@
                 .Subdomains("a", "b", "c")
                 .Attribution("&copy; <a href='http://osm.org/copyright'>OpenStreetMap contributors</a>");
                    layers.Add()
-                    .Style(style => style.Fill(fill => fill.Opacity(1)))
+                    .Style(style => style.Fill(fill => fill.Opacity(0.7)))
                     .Style(style => style.Fill(fill => fill.Color("red")))
                     .Style(style => style.Stroke(stroke => stroke.Width(0)))
                     .Type(MapLayerType.Shape)
@@ -44,17 +44,19 @@
             <tr><td>1</td><td>Jäger 2</td></tr>
             <tr><td>2</td><td>Jäger 2</td></tr>
             <tr><td>3</td><td>Jäger 2</td></tr>
-            <tr><td>4</td><td>Steirer</td></tr>
-            <tr><td>5</td><td>Steirer</td></tr>
-            <tr><td>6</td><td>Steirer</td></tr>
-            <tr><td>7</td><td>Steirer</td></tr>
-            <tr><td>8</td><td>Steirer</td></tr>
-            <tr><td>9</td><td>Steirer</td></tr>
-            <tr><td>10</td><td>Jäger 1</td></tr>
+            <tr><td>4</td><td>Jäger 3</td></tr>
+            <tr><td>5</td><td>Jäger 3</td></tr>
+            <tr><td>6</td><td>Jäger 3</td></tr>
+            <tr><td>7</td><td>Jäger 3</td></tr>
+            <tr><td>8</td><td>Feldhüter</td></tr>
+            <tr><td>9</td><td>Jäger 3</td></tr>
+            <tr><td>10</td><td>Jäger 3</td></tr>
             <tr><td>11</td><td>Jäger 1</td></tr>
-            <tr><td>12</td><td>Feldhüter</td></tr>
-            <tr><td>13</td><td>Jäger 1</td></tr>
-            <tr><td>14</td><td>Steirer</td></tr>
+            <tr><td>12</td><td>Jäger 1</td></tr>
+            <tr><td>13</td><td>Feldhüter</td></tr>
+            <tr><td>14</td><td>Jäger 1</td></tr>
+            <tr><td>15</td><td>Jäger 3</td></tr>
+            <tr><td>Springer</td><td>Jäger 3</td></tr>
         </table>
 
         <script>
@@ -70,9 +72,9 @@
 
                 if (labelText) {
                     var label = new kendo.drawing.Text(labelText,
-                        { font: "2em 'Open Sans', sans-serif" });
+                        { font: "25px, 'Open Sans', sans-serif" });
                     var labelCenter = label.bbox().center();
-
+                    
                     // Position the label
                     label.position([
                       center.x - labelCenter.x,

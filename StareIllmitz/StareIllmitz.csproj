@@ -496,9 +496,6 @@
     <Content Include="Content\countries-users.geo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\map16.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\store-locations.json" />
     <Content Include="Content\map11.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -509,10 +506,9 @@
     <Content Include="Content\einteilung11.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\einteilung16.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\einteilung14.pdf" />
+    <Content Include="Content\einteilung16.pdf" />
+    <None Include="Content\map16.json" />
     <None Include="Properties\PublishProfiles\StareIllmitz - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\StareIllmitz.pubxml" />
